@@ -1,0 +1,55 @@
+{
+  "resCode": "000",
+  "resMsg": "success",
+  "list": [
+    {
+      "id": "10022",
+      "imgUrl":"https://gss0.baidu.com/-4o3dSag_xI4khGko9WTAnF6hhy/bainuo/crop%3D0%2C1%2C470%2C285%3Bw%3D470%3Bq%3D79/sign=3362b0a99416fdfacc239cae89bfa065/060828381f30e9242c14d7b345086e061c95f784.jpg",
+      "shopName": "茄子炒肉",
+      "price": "50",
+      "oldPrice":"20"
+    },{
+      "id": "10023",
+      "imgUrl":"https://gss0.baidu.com/-4o3dSag_xI4khGko9WTAnF6hhy/bainuo/crop%3D0%2C21%2C690%2C418%3Bw%3D470%3Bq%3D80/sign=d1b578969482d158afcd03f1bd3a35ea/8694a4c27d1ed21b0e48d09da56eddc450da3fc0.jpg",
+      "shopName": "番茄炒蛋",
+      "price": "30",
+      "oldPrice":"20"
+    },{
+      "id": "10024",
+      "imgUrl":"https://gss0.baidu.com/-4o3dSag_xI4khGko9WTAnF6hhy/bainuo/crop%3D0%2C21%2C690%2C418%3Bw%3D470%3Bq%3D79/sign=97a834e6a8345982d1c5bfd231c41d9f/2cf5e0fe9925bc315c15a10a5bdf8db1ca1370d3.jpg",
+      "shopName": "糖醋里脊",
+      "price": "30",
+      "oldPrice":"20"
+    },{
+      "id": "10025",
+      "imgUrl":"https://gss0.baidu.com/-4o3dSag_xI4khGko9WTAnF6hhy/bainuo/crop%3D0%2C24%2C800%2C484%3Bw%3D720%3Bq%3D99/sign=169eb551b7096b63955604103103ab76/0dd7912397dda144b1ec1eccbbb7d0a20df486e2.jpg",
+      "shopName": "鱼香肉丝",
+      "price": "30",
+      "oldPrice":"20"
+    },{
+      "id": "10026",
+      "imgUrl":"https://gss0.baidu.com/-4o3dSag_xI4khGko9WTAnF6hhy/bainuo/crop%3D3%2C0%2C845%2C512%3Bw%3D719%3Bq%3D99/sign=7f3978a7d61373f0e17035df993c67cb/8435e5dde71190efd8bc7203c91b9d16fcfa60a3.jpg",
+      "shopName": "麻辣小龙虾",
+      "price": "30",
+      "oldPrice":"20"
+    },{
+      "id": "10027",
+      "imgUrl":"https://gss0.baidu.com/-4o3dSag_xI4khGko9WTAnF6hhy/bainuo/crop%3D0%2C0%2C720%2C436%3Bw%3D720%3Bq%3D80/sign=fec2647c93eef01f595b4285ddceb515/b3fb43166d224f4a6ae9ae0b0ef790529822d1b2.jpg",
+      "shopName": "桂林米粉",
+      "price": "30",
+      "oldPrice":"20"
+    },{
+      "id": "10028",
+      "imgUrl":"https://gss0.baidu.com/-4o3dSag_xI4khGko9WTAnF6hhy/bainuo/crop%3D1%2C0%2C689%2C418%3Bw%3D469%3Bq%3D80/sign=aece3eaed12a6059465fbb5a150518ab/d833c895d143ad4b2ed294a784025aafa50f06dd.jpg",
+      "shopName": "北京炸酱面",
+      "price": "30",
+      "oldPrice":"20"
+    },{
+      "id": "10028",
+      "imgUrl":"https://gss0.baidu.com/-4o3dSag_xI4khGko9WTAnF6hhy/bainuo/crop%3D0%2C71%2C850%2C514%3Bw%3D720%3Bq%3D79/sign=5021891cf5faaf5190acdbffb164b8d9/241f95cad1c8a786572d6b346f09c93d70cf5080.jpg",
+      "shopName": "香辣鸡排",
+      "price": "30",
+      "oldPrice":"20"
+    }
+    ]
+}

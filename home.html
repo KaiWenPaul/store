@@ -1,0 +1,136 @@
+﻿<!Doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="format-detection" content="telephone=no,email=no">
+<link rel="stylesheet" type="text/css" href="css/reset.css">
+<link rel="stylesheet" type="text/css" href="css/main.css">
+<title>首页</title>
+</head>
+<body id="index" class="wrapper">
+    <div id="header">
+        <div id="home"><a href="home.html">好邻居</a></div>
+        <div id="my"><a></a></div>
+    </div> 
+    <div id="main">
+        <div id="section1">
+            <div id="slideBox" class="slideBox">
+                <div class="bd">
+                  <ul>
+                    <li>
+                        <a class="pic"><img src="images/img1.png" /></a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="hd">
+                  <ul></ul>
+                </div>
+            </div>
+            <ul id="main_nav">
+                <li id="product_all"><a>全部商品</a></li>
+                <li id="quick_order"><a>快速下单</a></li>
+                <li id="coupons"><a>优惠券</a></li>
+                <li id="my_order"><a>我的订单</a></li>
+            </ul>
+            <div id="main_privilege">
+               <ul id="coupons_wrap" class="clearfix">
+                    <li>
+                        <div class="coupons_content">
+                            <div class="coupons_l">
+                                <div class="coupons_price">￥<span class="coupons_value">20</span></div>
+                                <div class="coupons_title">优惠券</div>
+                            </div>
+                            <div class="tap_pay">
+                                <a>点击领取</a>
+                            </div>
+                            <div class="circle_l"></div>
+                            <div class="circle_r"></div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="coupons_content">
+                            <div class="coupons_l">
+                                <div class="coupons_price">￥<span class="coupons_value">20</span></div>
+                                <div class="coupons_title">优惠券</div>
+                            </div>
+                            <div class="tap_pay">
+                                <a>点击领取</a>
+                            </div>
+                            <div class="circle_l"></div>
+                            <div class="circle_r"></div>
+                        </div>
+                    </li>
+                </ul> 
+                <div id="recommend">
+                  
+                </div>
+            </div>
+        </div>
+        <div id="section2">
+            <div id="main_category">
+                <div id="category_title">
+                    <div id="category_titletxt">分类1</div>
+                    <div id="arrow_more"></div>
+                </div>
+                <ul id="product_list" class="clearfix">
+                    
+                </ul>
+            </div>
+            <div id="btn_more" class="btn_more">
+                <a> 查看更多商品</a>
+            </div>
+        </div>
+    </div>
+    <div id="pop_car">
+        <div class="car_trolley dsn"></div>
+        <a href="shoppingCar.html"></a>
+    </div>
+    <div class="pop_wrapper dsn" id="hasAdd">
+        <div class="pop_con">
+            <h2>已成功加入购物车!</h2>
+        </div>
+    </div>
+    <!--第一个模版-->
+ <script type="text/template" id="tp1">
+  <img  data-id="<%=recomTpl.id%>" src="<%=recomTpl.imgUrl%>">
+    <div class="recom_wrap">
+        <div class="recom_inf">
+            <div class="recom_tilte">
+                <div class="recom_txt">现价</div>
+            </div>
+            <div class="recom_price">
+                <p>￥<%=recomTpl.price%></p>
+                <s>原价：<%=recomTpl.oldPrice%></s>
+            </div>
+        </div>
+    </div>
+     <a href="detail.html?id=<%=recomTpl.id%>"></a>
+ </script>
+ <!--第二个模版-->
+ <script type="text/template" id="tp2">
+ 	<%
+ 	for(var i=0;i<recomTpl2.length;i++){
+ 	%>
+ 	<li data-id="<%=recomTpl2[i].id%>">
+        <div class="product_box">
+            <a href="detail.html?id=<%=recomTpl2[i].id%>"><img src="<%=recomTpl2[i].imgUrl%>"></a>
+            <h2><a href="detail.html?id=<%=recomTpl2[i].id%>"><%=recomTpl2[i].shopName%></a></h2>
+            <div class="clearfix">
+                <div class="product_price fl">￥<span class="product_mpney"><%=recomTpl2[i].price%></span></div>
+                <div class="product_car fr"></div>
+            </div>
+        </div>
+    </li>
+ 	<%
+ 	}
+ 	%>
+ </script>
+<script type="text/javascript" src="js/libs/flexible.js"></script>
+<script src="js/libs/zepto.js"></script>
+<script src="./common/common.js"></script>
+<script src="js/libs/underscore.js"></script>
+<script src="js/home.js"></script>
+<script src="js/login.js"></script>
+<!--<script src="/a_huruqing/common/common.js"></script>-->
+</body>
+</html>

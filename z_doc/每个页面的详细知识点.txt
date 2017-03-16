@@ -1,0 +1,56 @@
+﻿每个页面的详细知识点
+一，注册页面
+1)面向对象开发项目
+2)代码写作规范
+3)正则表达式的使用
+4)倒计时
+
+二,登录页面
+1)正则表达式的运用
+2)本地缓存的使用: 保存sessionId和用户名
+
+三，首页
+1)事件托管 $('selector').on('click','selector',function(){}); off(); one();
+2)数组的操作
+3)使用underscore解析模板 _.template
+4)用jQuery操作页面元素
+5)使用ajax请求后台数据
+6)在url地址后台添加参数传递给下一个页面
+a,原始方式  'test.html?id='+id+'&userName='+userName
+b,$.param
+7)h5特性data-xx的使用
+a,$().data('id')
+b,document.getElementById('selector').dataset.id
+c,$('#aaa').data('imgUrl') 是无法取到值的, 必须使用小写$('#aaa').data('imgurl')
+8)公共方法封装如:common.ajax common.getWebUrl common.bindEvent common.getParam common.judgeEnv等
+
+四，详情页面
+1)使用公共方法绑定事件,发送请求,读取url上的参数等
+2)使用underscore解析模板
+3)使用TouchSlide.1.1.js制作轮播图
+4)使用jQuery操作页面数据
+
+五，购物车页面
+1)使用公共方法绑定事件,发送请求等
+2)使用underscore解析模板,使用_.each循环数组 _.each和$.each的区别
+3)使用jquery对页面元素进行操作
+4)缓存的使用,store.js介绍
+
+六，提交订单页面
+1)使用公共方法绑定事件,发送请求等
+2)使用underscore解析模板
+3)使用jquery对页面元素进行操作
+4)添加点击事件考虑用户体验
+5)缓存的使用
+6)日期判断
+
+七,其他页面
+1)tap事件介绍
+2)call与apply介绍 $.proxy _.bind
+3)ajax全局设置
+4)jQuery扩展$.fn.extend $.extend(项目结束结合原型来讲)
+
+
+
+
+

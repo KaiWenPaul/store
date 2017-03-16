@@ -1,0 +1,3 @@
+store.set('aaa',222);
+store.get('aaa');
+store.remove('aaa')
